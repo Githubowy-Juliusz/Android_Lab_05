@@ -15,7 +15,7 @@ class LinesFragment :
 		val button = view.findViewById<Button>(R.id.linesButton)
 
 		button.setOnClickListener {
-			print("click")
+			LineDrafter(500, 500, imageView).draw()
 		}
 	}
 }
