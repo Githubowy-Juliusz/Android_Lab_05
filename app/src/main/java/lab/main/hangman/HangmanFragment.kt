@@ -63,6 +63,7 @@ class HangmanFragment :
 			if(win) {
 				confirmButton.text = "Try again"
 				tryNumberText.text = "You won!"
+				pictureSetter.set(1)
 			} else if(hangman.possibleMistakesRemaining == 0) {
 				tryNumberText.text = "You lost."
 				confirmButton.text = "Try again"
